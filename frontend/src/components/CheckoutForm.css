@@ -1,0 +1,27 @@
+@media (max-width: 580px) {
+    .container{
+        padding:auto;
+        display:flex;
+        flex-direction: column;
+        z-index: 99;
+        margin:auto;
+       justify-content: center;
+       text-align: center;
+       position: relative;
+        }
+
+    .checkout-text {
+        color: brown;
+        text-align: center;
+       
+    }
+
+    .checkout-container {
+        width: 100%;
+        display: flex;
+        z-index: 99;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
